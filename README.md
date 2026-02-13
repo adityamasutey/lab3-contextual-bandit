@@ -112,11 +112,14 @@ The environment is modeled as:
 
 - **Total Arms:** 3 × 4 = 12
 
-Arm mapping used:
+### Arm Index Mapping
 
-0–3 → User1
-4–7 → User2
-8–11 → User3
+| Arm Index Range | User Context |
+|-----------------|-------------|
+| 0–3             | User1      |
+| 4–7             | User2      |
+| 8–11            | User3      |
+
 
 
 Each context has its own reward distribution.
